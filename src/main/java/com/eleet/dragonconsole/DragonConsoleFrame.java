@@ -112,6 +112,10 @@ public class DragonConsoleFrame extends JFrame {
         this.centerWindow();
     }
 
+    public void setCloseOperation(int operation) {
+        this.setDefaultCloseOperation(operation);
+    }
+    
     /** Centers the window based on screen size and window size.
      * Determines the Screen Size and then centers the Window. This can cause
      * funky problems on multi-screen display systems.
